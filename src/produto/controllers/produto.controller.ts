@@ -4,7 +4,7 @@ import { ProdutoService } from "../services/produto.service";
 
 
 
-@Controller("/postagens")
+@Controller("/produtos")
 export class ProdutoController{
 
     constructor(private readonly produtoService: ProdutoService){}
